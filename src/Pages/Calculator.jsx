@@ -2,7 +2,7 @@ import React from 'react'
 
 const Calcultor = () => {
   return (
-    <div>Calcultor</div>
+    <div>Calculator</div>
   )
 }
 
