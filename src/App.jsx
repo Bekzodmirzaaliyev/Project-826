@@ -1,13 +1,19 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Calculator from './Pages/Calcultor';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    </>
-  )
+    <Router>
+      <Switch>
+        <Route path="/calculator" exact component={Calculator} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
+    </Router>
+  );
 }
 
-export default App
+export default App;
