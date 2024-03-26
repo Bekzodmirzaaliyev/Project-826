@@ -15,6 +15,7 @@ import Gallery from './Pages/Gallery';
 import Swiper from './Pages/Swiper';
 import ToDoList from './Pages/ToDoList';
 import Weather from './Pages/Weather';
+import Navbar from './components/Navbar.jsx'
 
 
 const router = createBrowserRouter([
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
     path: "/weather",
     element: <Weather/>,
   },
+  {
+    path: "/contacts",
+    element: <Contacts/>,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
