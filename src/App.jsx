@@ -1,18 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Calculator from './Pages/Calcultor';
-import About from './Pages/About';
-import Contact from './Pages/Contact';
+import Contacts from './Pages/Contacts';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/calculator" exact component={Calculator} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
-    </Router>
+    <Contacts />
   );
 }
 
