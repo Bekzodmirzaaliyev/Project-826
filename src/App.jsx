@@ -9,6 +9,7 @@ import Swiper from './Pages/Swiper';
 import ToDoList from './Pages/ToDoList';
 import Weather from './Pages/Weather';
 import Navbar from './components/Navbar';
+import Home from './Pages/Home';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
+          <Route path="/" element={<Home/>}/>
           <Route path="/calculator" element={<Calculator/>}/>
           <Route path="/calendar" element={<Calendar/>}/>
           <Route path="/contacts" element={<Contacts/>}/>
