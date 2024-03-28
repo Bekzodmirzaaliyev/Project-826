@@ -16,7 +16,7 @@ const CurrencyConverter = () => {
     fetchData();
   }, [baseCurrency]);
 
-  const handleConvert = (e) => {
+  const handleConvert = (e) => {  
     e.preventDefault();
     const rate = exchangeRates[targetCurrency];
     const converted = (amount * rate).toFixed(2);
