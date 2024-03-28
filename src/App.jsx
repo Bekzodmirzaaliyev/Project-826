@@ -1,17 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Calculator from './Pages/Calcultor';
-import About from './Pages/About';
-import Contact from './Pages/Contact';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import CurrencyConverter from './Pages/Currency';
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path="/calculator" exact component={Calculator} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<CurrencyConverter />} />
+      </Routes>
     </Router>
   );
 }
