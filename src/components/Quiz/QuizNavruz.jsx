@@ -1,9 +1,3 @@
-import React from 'react'
-
-const QuizNavruz = () => {
-  return (
-    <div>QuizNavruz</div>
-  )
-}
+import { QuizNavruz } from './QuizNavruz.1'
 
 export default QuizNavruz
