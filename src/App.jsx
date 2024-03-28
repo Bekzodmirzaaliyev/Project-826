@@ -14,7 +14,7 @@ import QuizNavruz from './components/Quiz/QuizNavruz';
 import QuizAsilbek from './components/Quiz/QuizAsilbek';
 import QuizYahyo from './components/Quiz/QuizYahyo';
 import QuizShaxriyor from './components/Quiz/QuizShaxriyor';
-import SideBarAbdulloh from './components/Quiz/SideBarAbdulloh';
+import SideBar from './components/SideBar';
 
 function App() {
   return (
