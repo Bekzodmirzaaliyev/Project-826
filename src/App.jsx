@@ -1,4 +1,4 @@
-import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Calculator from './Pages/Calculator';
 import Calendar from './Pages/Calendar';
 import Contacts from './Pages/Contacts';
@@ -15,17 +15,17 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar/>
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/calculator" element={<Calculator/>}/>
-          <Route path="/calendar" element={<Calendar/>}/>
-          <Route path="/contacts" element={<Contacts/>}/>
-          <Route path="/currency" element={<Currency/>}/>
-          <Route path="/gallery" element={<Gallery/>}/>
-          <Route path="/quiz" element={<Quiz/>}/>
-          <Route path="/todolist" element={<ToDoList/>}/>
-          <Route path="/weather" element={<Weather/>}/>   
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/calendar" element={<Calendar />} />
+          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/currency" element={<Currency />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/quiz" element={<Quiz />} />
+          <Route path="/todolist" element={<ToDoList />} />
+          <Route path="/weather" element={<Weather />} />
         </Routes>
       </Router>
     </>

@@ -26,7 +26,7 @@ function ToDoList() {
 
   return (
     <div className=''>
-      <div className="max-w-md mx-auto mt-8 p-6 bg-blue-600 rounded-lg shadow-xl">
+      <div className="max-w-md mx-auto mt-10 p-10 bg-blue-600 rounded-lg shadow-xl">
       <h2 className="text-xl font-semibold mb-4">ToDo List</h2>
       <div className="flex">
         <input
