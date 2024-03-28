@@ -14,7 +14,7 @@ import QuizNavruz from './components/Quiz/QuizNavruz';
 import QuizAsilbek from './components/Quiz/QuizAsilbek';
 import QuizYahyo from './components/Quiz/QuizYahyo';
 import QuizShaxriyor from './components/Quiz/QuizShaxriyor';
-import SideBarAbdulloh from './components/Quiz/SideBarAbdulloh';
+import SideBar from './components/SideBar';
 
 function App() {
   return (
@@ -31,11 +31,11 @@ function App() {
           <Route path="/quiz" element={<Quiz/>}/>
           <Route path="/todolist" element={<ToDoList/>}/>
           <Route path="/weather" element={<Weather/>}/>
-          <Route path="/quizreact" element={<QuizNavruz/>}/>   
-          <Route path="/quizcars" element={<QuizShaxriyor/>}/>   
-          <Route path="/quizjs" element={<QuizYahyo/>}/>   
-          <Route path="/quizcountries" element={<QuizAsilbek/>}/>  
-          <Route path="/sidebar" element={<SideBarAbdulloh/>}/>   
+          <Route path="/quiz/react" element={<QuizNavruz/>}/>   
+          <Route path="/quiz/cars" element={<QuizShaxriyor/>}/>   
+          <Route path="/quiz/js" element={<QuizYahyo/>}/>   
+          <Route path="/quiz/countries" element={<QuizAsilbek/>}/>  
+          <Route path="/sidebar" element={<SideBar/>}/>   
         </Routes>
       </Router>
     </>
