@@ -20,36 +20,36 @@ import Weather from './Pages/Weather';
 const router = createBrowserRouter([
   {
     path: "/calculator",
-    element: <Calculator/>,
+    element: <Calculator />,
   },
   {
     path: "/calendar",
-    element: <Calendar/>,
+    element: <Calendar />,
   },
   {
     path: "/currency",
-    element: <Currency/>,
+    element: <Currency />,
   },
   {
     path: "/gallery",
-    element: <Gallery/>,
+    element: <Gallery />,
   },
   {
     path: "/swiper",
-    element: <Swiper/>,
+    element: <Swiper />,
   },
   {
     path: "/todolist",
-    element: <ToDoList/>,
+    element: <ToDoList />,
   },
   {
     path: "/weather",
-    element: <Weather/>,
+    element: <Weather />,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-        <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
