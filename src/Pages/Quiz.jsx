@@ -1,8 +1,11 @@
 import React from 'react'
+import QuizAsilbek from '../components/Quiz/QuizAsilbek'
 
 const Quiz = () => {
   return (
-    <div>Quiz</div>
+    <div>
+      <QuizAsilbek />
+    </div>
   )
 }
 
