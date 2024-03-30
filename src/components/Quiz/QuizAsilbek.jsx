@@ -121,3 +121,4 @@ const QuizAsilbek = () => {
 };
 
 export default QuizAsilbek;
+
